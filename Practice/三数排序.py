@@ -2,7 +2,7 @@
 # 开发时间：2021/10/18 10:21
 raw = []
 for i in range(3):
-    x = int(input('int%d: ' % (i)))
+    x = int(input('int%d: ' % i))
     raw.append(x)
 
 for i in range(len(raw)):
@@ -13,13 +13,7 @@ print(raw)
 
 raw2 = []
 for i in range(3):
-    x = int(input(f'int{i:d}: '))
+    x = int(input('int%d: ' % i))
     raw2.append(x)
 print(sorted(raw2))
-
-raw3 = []
-x=int(input("x"))
-y=int(input("y"))
-z=int(input("z"))
-print(sorted(raw3))
 
