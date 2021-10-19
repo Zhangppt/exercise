@@ -3,7 +3,7 @@
 # 生成斐波那契数列
 List = [0]
 a, b = 0, 1
-for i in range(10):
+for i in range(20):
     a, b = b, a + b
     List.append(a)  # 往列表末尾添加一个元素
 print(List)
